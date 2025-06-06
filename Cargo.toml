@@ -1,0 +1,12 @@
+[package]
+name = "ts2ir"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "ts2ir"
+path = "src/main.rs"
+
+[dependencies]
+ir = { git = "https://github.com/sc-land/ir.git" }
+serde_json = "1.0.140"
